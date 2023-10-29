@@ -50,7 +50,7 @@ output:
     citation_package: natbib
 ---
 
-# Introduction
+# 1. Introduction
 
 The idea is to explore how the use of Large Language Models (LLMs) as General Purpose Technology (GPT) could reshape industries, considering the generalization capabilities of LLMs and the rapid adoption of these tools by the public and firms.
 
@@ -65,25 +65,77 @@ On the other hand, the use of LLMs as a base technology of other tools, such as 
 
 So, the potential arising of emergent abilities and the wide use of LLMs as enablers of new tools (AI based-software) alongside the spread use of tools such as ChatGPT by a large amount of humans (here: million of users of chatGPT), it could signify a future unseen before by the human beings, because the expansion and pushing of new boarders and limits would be accelerated.
 
-# Assessing the Potential Economic Impact 
-
-Starting Point - Assessing the potential economic impact of LLMs based on a retrospective approach: Considering the potential of the AI as a new GPT, what would be its impact on reshaping industries and economic growth, base on the behavior of last General Purpose Technology like internet, electricity, etc.
-
-A. Defining General Purpose Technology (GPT) 
-
-General Purpose Technology is a transformative technology with a strong improvement process at the begining and eventually becoming widely adopted for its multiples uses, while producing many spillover effects [@paradox]. As such, it have a pervasive impact on society as a whole, mainly due to its capability to redefine the ways in which businesses operate, improve productive and contribute to long-term economic growth. Some well-know examples are steam power, electricity, semiconductors, and internet.
-
-The positive expectations regarding how new technologies could drive development, economic growth, and generate substantial profits are often accompanied by the optimistic mindset of industrial and well-known technology leaders, as well as venture capitalists. Simultaneously, the financial sector capitalizes on this excitement through speculative investments and forecasts of future company wealth. As mentioned by [@paradox], "there is no inherent inconsistency between forward-looking technological optimism and backward-looking disappointment. Both can simultaneously exist," especially during periods of transformative changes.
-
-B. Evaluating the potential economic impact in terms of value creation and cost optimization 
-  1. Real cases of successful implementations of LLMs for value creation 
-  2. Real cases of successful implementations of LLMs for cost optimization 
-C. Intangible capital - capital may not be reflected in the measurements of economic growth
-
 # Generalization Capabilities of LLMs as GPT 
 A. Examining the adoption rate of previous GPTs 
 B. Key factors contributing to the widespread adoption of a technology as a GPT 
 C. Reviewing the literature on the potential of AI as a GPT
+
+Artificial intelligence a term coined by emeritus Stanford Professor John McCarthy in 1955, was defined by him as “the science and engineering of making intelligent machines”.[^1] These systems are designed to simulate human cognitive abilities, such as learning, reasoning, problem-solving, perception, and language understanding. Within the realm of AI, Large Language Models (LLMs) are a specific type of AI model that utilizes deep learning techniques, particularly neural networks, to process and generate human-like language. LLMs are trained on vast amounts of text data and can perform tasks like language translation, text summarization, and question answering. 
+
+In the past, computer programs were developed by painstakingly encoding human knowledge, following a precise set of instructions that mapped specific inputs to desired outputs. This approach required programmers to meticulously define every step of the process. However, machine learning systems operate differently. They utilize general algorithms, such as neural networks, which enable them to independently determine the appropriate mapping between inputs and outputs. This is achieved through exposure to extensive datasets containing numerous examples. By analyzing and learning from these examples, machine learning systems can identify patterns and make accurate predictions or classifications without explicit programming instructions.
+
+General Purpose Technology is a transformative technology with a strong improvement process at the begining and eventually becoming widely adopted for its multiples uses, while producing many spillover effects [@paradox]. As such, it have a pervasive impact on society as a whole, mainly due to its capability to redefine the ways in which businesses operate, improve productive and contribute to long-term economic growth. Some well-know examples are steam power, electricity, semiconductors, and internet.
+
+[^1]: Available at: https://hai.stanford.edu/sites/default/files/2020-09/AI-Definitions-HAI.pdf
+
+# Assessing the Potential Economic Impact 
+
+Considering the potential of the AI as a new GPT, specifically the LLMs, assessing its potential economic impact to setting expectatives, it could be address based on a retrospective approach what it means that the behaviour of previous General Purpose Technology like internet, electricity or semiconductors, can give a more realistic answer to this question, given the current conditions of uncertainty of this time.
+
+It is worth noting that the article by [@paradox] was written seven years before the launch of ChatGPT by OpenAI. This temporal context adds significance to the insights provided by [@paradox], as they were able to anticipate and discuss the potential impact of artificial intelligence (AI) technologies on productivity growth before the emergence of specific AI models like ChatGPT. Their analysis and observations offer valuable perspectives on the productivity paradox and the clash between expectations and statistical realities in the context of technologies with the potential to become GPTs.
+
+This apparent incongruence relies on the time lag between invention and the full impact on the economy and society. It takes time to build the stock of the new technology, develop the necessary human capital skillset, undergo the re-engineering process of business process transformations, and develop complementary innovations for its full realization.
+
+One example mentioned by [@paradox] is the call center industry, which had approximately 2.2 million agents in the United States. It was plausible at that time to anticipate that voice recognition systems like IBM's Watson could potentially reduce the number of workers by 60%. However, in hindsight, it is evident that the expectations have not been fully met, as shown in Figure \ref{fig1}, which illustrates the statistics.
+
+
+```{r path, echo = FALSE, include = FALSE}
+rm(list=ls())
+getwd()
+path_sript <- rstudioapi::getActiveDocumentContext()$path
+path_folder <- dirname(path_sript)
+setwd(path_folder)
+```
+
+
+```{r fig1, fig.width = 5, fig.height = 5, fig.align='center', out.width="70%", fig.cap = "\\label{fig1}Number on contact center employees in the United States from 2014 to 2022.", echo = FALSE}
+knitr::include_graphics("../Views/contact_center_employees_US.png")
+```
+
+The positive expectations surrounding new technologies driving development, economic growth, and generating profits are often accompanied by optimism from industry leaders, technology experts, and venture capitalists. This optimism leads to speculative investments and forecasts of future company wealth in the financial sector. However, as [@paradox] suggests, there is no inherent contradiction between forward-looking technological optimism and backward-looking disappointment. Both can coexist, particularly during periods of transformative change. This can be attributed to human nature, as individuals desire to see their expectations fulfilled within their lifetime. However, it takes time for society to fully incorporate and benefit from new technologies, resulting in a slower pace of assimilation.
+
+B. Evaluating the potential economic impact in terms of value creation and cost optimization 
+  1. Real cases of successful implementations of LLMs for value creation 
+  2. Real cases of successful implementations of LLMs for cost optimization 
+  
+  | Value Creation | Cost Reduction | Reference |
+|----------------|----------------|----------------|
+| Deep neural network system matches the diagnostic performance of 21 board certified dermatologists in detecting skin cancer. |   | [@cancer]  |
+| Row 2 Value 1  | Row 2 Value 2  | Row 1 Value 2  |
+| Row 3 Value 1  | Row 3 Value 2  | Row 1 Value 2  |
+| Row 3 Value 1  | Row 3 Value 2  | Row 1 Value 2  |
+
+
+
+
+-----
+Total Factor Productivity should reflect the exceptional technological advance
+
+Review data: CBInsights
+- Labour Productivity Growth vs Global Investment focused on AI
+- OECD Productivity Growth
+- Real Median income has stagnated since the late 1990s 
+
+Both capital deepening and total factor productivity (TFP) growth lead to labor productivity growth, and both seem to be playing a role in the slowdown
+
+The old adage that “past performance is not predictive of future results” applies well to trying to predict productivity growth in the years to come, especially in periods of a decade or longer. Historical stagnation does not justify forward-looking pessimism. Taken from Paradox
+
+
+C. Intangible capital - capital may not be reflected in the measurements of economic growth
+
+
+
+AI developing skills: Perception and cognition
 
 # LLMs vs. Artificial General Intelligence (AGI) 
 A. Understanding the difference between LLMs and AGI 
@@ -141,13 +193,7 @@ Here is another:
 
 Inline equations: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
 
-# Figures and tables
 
-Figure \ref{fig2} is generated using an R chunk.
-
-```{r fig2, fig.width = 5, fig.height = 5, fig.align='center', out.width="50%", fig.cap = "\\label{fig2}A meaningless scatterplot.", echo = FALSE}
-plot(runif(25), runif(25))
-```
 
 # Tables coming from R
 
