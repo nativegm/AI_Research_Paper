@@ -1,0 +1,93 @@
+@misc{weiemergent,
+      title={Emergent Abilities of Large Language Models}, 
+      author={Jason Wei and Yi Tay and Rishi Bommasani and Colin Raffel and Barret Zoph and Sebastian Borgeaud and Dani Yogatama and Maarten Bosma and Denny Zhou and Donald Metzler and Ed H. Chi and Tatsunori Hashimoto and Oriol Vinyals and Percy Liang and Jeff Dean and William Fedus},
+      year={2022},
+      eprint={2206.07682},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{gptaregpts,
+      title={GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models}, 
+      author={Tyna Eloundou and Sam Manning and Pamela Mishkin and Daniel Rock},
+      year={2023},
+      eprint={2303.10130},
+      archivePrefix={arXiv},
+      primaryClass={econ.GN}
+}
+
+@techreport{paradox,
+ title = "Artificial Intelligence and the Modern Productivity Paradox: A Clash of Expectations and Statistics",
+ author = "Brynjolfsson, Erik and Rock, Daniel and Syverson, Chad",
+ institution = "National Bureau of Economic Research",
+ type = "Working Paper",
+ series = "Working Paper Series",
+ number = "24001",
+ year = "2017",
+ month = "November",
+ doi = {10.3386/w24001},
+ URL = "http://www.nber.org/papers/w24001",
+ abstract = {We live in an age of paradox. Systems using artificial intelligence match or surpass human level performance in more and more domains, leveraging rapid advances in other technologies and driving soaring stock prices. Yet measured productivity growth has declined by half over the past decade, and real income has stagnated since the late 1990s for a majority of Americans. We describe four potential explanations for this clash of expectations and statistics: false hopes, mismeasurement, redistribution, and implementation lags. While a case can be made for each, we argue that lags have likely been the biggest contributor to the paradox. The most impressive capabilities of AI, particularly those based on machine learning, have not yet diffused widely. More importantly, like other general purpose technologies, their full effects won’t be realized until waves of complementary innovations are developed and implemented. The required adjustment costs, organizational changes, and new skills can be modeled as a kind of intangible capital. A portion of the value of this intangible capital is already reflected in the market value of firms. However, going forward, national statistics could fail to measure the full benefits of the new technologies and some may even have the wrong sign.},
+}
+
+@article{cancer,
+  doi = {10.1038/nature21056},
+  url = {https://doi.org/10.1038/nature21056},
+  year = {2017},
+  month = jan,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {542},
+  number = {7639},
+  pages = {115--118},
+  author = {Andre Esteva and Brett Kuprel and Roberto A. Novoa and Justin Ko and Susan M. Swetter and Helen M. Blau and Sebastian Thrun},
+  title = {Dermatologist-level classification of skin cancer with deep neural networks},
+  journal = {Nature}
+}
+
+
+@article{Dirac1953888,
+  title   = "The {Lorentz} transformation and absolute time",
+  journal = "Physica ",
+  volume  = "19",
+  number  = "1-–12",
+  pages   = "888--896",
+  year    = "1953",
+  doi     = "10.1016/S0031-8914(53)80099-6",
+  author  = "P. A. M. Dirac"
+}
+
+@article{Feynman1963118,
+  title   = "The theory of a general quantum system interacting with a linear dissipative system",
+  journal = "Annals of Physics ",
+  volume  = "24",
+  pages   = "118--173",
+  year    = "1963",
+  doi     = "10.1016/0003-4916(63)90068-X",
+  author  = "R. P Feynman and F. L {Vernon Jr.}"
+}
+
+@article{Mikki2023ArtificialGI,
+  title={Artificial General Intelligence and Noncomputability: A Dynamical Framework},
+  author={Said M. Mikki},
+  journal={J. Artif. Intell. Conscious.},
+  year={2023},
+  volume={10},
+  pages={71-101},
+  url={https://api.semanticscholar.org/CorpusID:256686011}
+}
+
+@article{Zhou2023PathTM,
+  title={Path to Medical AGI: Unify Domain-specific Medical LLMs with the Lowest Cost},
+  author={Juexiao Zhou and Xiuying Chen and Xin Gao},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2306.10765},
+  url={https://api.semanticscholar.org/CorpusID:259203619}
+}
+
+@inproceedings{Wang2012Chapter1I,
+  title={Chapter 1 Introduction : What Is the Matter Here ?},
+  author={Pei Wang and Ben Goertzel},
+  year={2012},
+  url={https://api.semanticscholar.org/CorpusID:11570569}
+}
